@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>JS Dadi</title>
 
     <!-- Link Font Awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
@@ -21,9 +21,23 @@
     <script type="text/JavaScript" src="./js/main.js" defer></script>
 </head>
 <body>
-    
-    
+    <h1 class="text-center my-4">DICE GAME vs AI</h1>
+    <div class="container">
+        <div class="d-flex justify-content-evenly mb-3">
+            <div>
+                YOU: <div id="user-number" class="text-center"></div>
+            </div>
+            <div>
+                CPU: <div id="cpu-number" class="text-center"></div>
+            </div>
+        </div>
 
+        <div id="result" class="text-center mb-3 fs-4"></div>
+
+        <div class="d-flex justify-content-center">
+            <input type="button" onclick="window.location.reload();" value="Try Again">
+        </div>
+    </div>
 
     <!-- Link Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

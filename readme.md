@@ -40,5 +40,7 @@ Consigli del giorno:
 - Creo un generatore casuale di numeri da 1 a 6 per il computer
 - SE l'utente ha il numero più alto del computer
     - Stampo la vittoria dell'utente
-- ALTRIMENTI
+- ALTRIMENTI SE il computer ha il numero più alto dell'utente
     - Stampo la vittoria del computer
+- ALTRIMENTI 
+    - Stampo il pareggio
