@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>JS Mail</title>
 
     <!-- Link Font Awesome -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
@@ -22,7 +22,18 @@
 </head>
 <body>
     
-
+    <h1 class="text-center text-white my-4">Mail Login</h1>
+    <form action="">
+        <div class="d-flex justify-content-center mt-5 mb-3">
+            <label for="mail" class="text-white me-3 align-self-center">Inserisci la tua mail</label>
+            <input type="mail" class="rounded" id="user-mail" placeholder="example@email.com">
+        </div>
+        <div class="d-flex justify-content-center">
+            <input type="button" value="Send" class="rounded mb-3" id="button-input">
+        </div>
+    </form>
+    <div class="text-center text-warning fs-4">L'esito del tuo login è:</div>
+    <div class="text-center fs-3" id="result"></div>
 
 
     <!-- Link Bootstrap JavaScript -->

@@ -28,6 +28,7 @@ Consigli del giorno:
 ### SVOLGIMENTO
 
 1) Mail:
+- Creo lista delle mail accettate
 - Chiedo di inserire la mail
 - Controllo SE è presente nella lista
     - Stampo esito positivo

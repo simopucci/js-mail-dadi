@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+form #user-mail {
+    width: 250px;
+}
